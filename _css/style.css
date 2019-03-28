@@ -1,9 +1,6 @@
-html 
-{
-    font-family: sans-serif;
-}
+/* login */
 
-body 
+#bodyLogin 
 {
     align-items: center;
     text-align: center;
@@ -30,7 +27,7 @@ body
     border-radius: 0.25rem;
 }
 
-a
+#aLogin
 {
     display: inline-block;
     text-decoration: none;
@@ -40,7 +37,7 @@ a
     margin-top: -13px;
 }
 
-a:hover
+#aLogin:hover
 {
     text-decoration: underline;
 }
@@ -105,3 +102,48 @@ a:hover
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
+/* FIM login
+
+
+/* paginaPrincipal */
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+  
+.nav li {
+    float: left;
+}
+  
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.nav li a:hover {
+    background-color: #111;
+}
+
+.nav .active, .nav .active:hover {
+    background-color: #4CAF50;
+}
+
+body {
+    background: rgb(223, 221, 221);
+    color: #484849;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* FIM paginaPrincipal */
