@@ -73,7 +73,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(90, 89, 89);
     top: 0;
     font-size: 14pt;
 }
@@ -86,7 +86,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 24px 16px;
     text-decoration: none;
 }
   
@@ -95,7 +95,8 @@
 }
 
 .nav .active, .nav .active:hover {
-    background-color: #4CAF50;
+    background-color: white;
+    color: black;
 }
 
 body {
@@ -165,3 +166,22 @@ body {
 }
 
 /* FIM cadastroUsuario */
+
+.centralizar {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    margin-left: 16.666667%;
+    position: relative;
+    min-width: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+    text-align: center;
+    margin-top: 20px;
+}
