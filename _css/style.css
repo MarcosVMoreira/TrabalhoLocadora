@@ -112,6 +112,25 @@ body {
     float:left;
 }
 
+.centralizar {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    margin-left: 16.666667%;
+    position: relative;
+    min-width: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* FIM paginaPrincipal */
 
 /* cadastroUsuario */
@@ -167,21 +186,52 @@ body {
 
 /* FIM cadastroUsuario */
 
-.centralizar {
+/* filmes */
+
+.navGenero {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #484849;
+    top: 0;
+    font-size: 14pt;
+}
+  
+.navGenero li {
+    float: left;
+}
+  
+.navGenero li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+  
+.navGenero li a:hover {
+    background-color:rgb(90, 89, 89);
+    color: white;
+}
+
+.navGenero .active, .navGenero .active:hover {
+    background-color: black;
+    color: white;
+}
+
+/* FIM filmes */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+  }
+
+.col-lg-3 {
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-    margin-left: 16.666667%;
-    position: relative;
-    min-width: 0;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
-    padding: 1.25rem;
-    text-align: center;
-    margin-top: 20px;
+    flex: 0 0 25%;
+    margin-top: 10px;
 }
