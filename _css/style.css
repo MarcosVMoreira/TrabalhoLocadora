@@ -139,8 +139,8 @@ body {
 
 #imagemNavBar
 {
-    padding: 10px 10px 0 10px;
-    width: 18%;
+    padding: 0 10px 0 10px;
+    width: 300px;
     float:left;
 }
 
@@ -187,6 +187,16 @@ body {
     border-radius: 5px;
 }
 
+.formulario-estilo2
+{
+    width: 10cm;
+    height: 5cm;
+    padding: 7px 15px;
+    font-size: 12pt;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
 .formulario-selecao
 {
     color: grey;
@@ -221,7 +231,7 @@ body {
 /* filmes */
 
 ul#zoom{
-    width: 700px;
+    width: 100%;
     margin: 0 auto;
     padding: 40px;
     overflow: hidden;
@@ -230,9 +240,9 @@ ul#zoom{
 
 ul#zoom li{
     float: left;
-    width: 200px;
+    width: 170px;
     margin: 10px;
-    height: 290px;
+    height: 270px;
     border: 5px solid #000000;
     border-radius: 5px;
     background-color: #000000;
@@ -240,8 +250,7 @@ ul#zoom li{
     transition: all .5s ease-in;
 }
 
-ul#zoom li span
-{
+ul#zoom li span{
     opacity: 0;
     color: #ffffff;
     text-shadow: 1px 1px 1px #000000;
@@ -253,54 +262,82 @@ ul#zoom li span
     transition: all .8s ease-in;
 }
 
-ul#zoom li:hover
-{
+ul#zoom li:hover{
     transform: scale(1.3)
 }
 
-ul#zoom li:hover span
-{
+ul#zoom li:hover span{
     opacity: 1;
 }
 
 ul#zoom li#imagemAvengers{
     background: url('../_img/poster_Avengers.jpg') no-repeat;
+    background-position: 50% 50%;
 }
 
 ul#zoom li#imagemBirdBox{
     background: url('../_img/poster_BirdBox.jpg') no-repeat;
+    background-position: 50% 50%;
 }
 
 ul#zoom li#imagemVelozes{
     background: url('../_img/poster_FastAndFurious.jpg') no-repeat;
+    background-position: 50% 50%;
 }
 
 ul#zoom li#imagemHellBoy{
     background: url('../_img/poster_Hellboy.jpg') no-repeat;
+    background-position: 50% 50%;
 }
 
 ul#zoom li#imagemJhonWick{
     background: url('../_img/poster_JohnWick.jpg') no-repeat;
+    background-position: 50% 50%;
 }
 
 ul#zoom li#imagemQuietPlace{
     background: url('../_img/poster_QuietPlace.jpg') no-repeat;
+    background-position: 50% 50%;
 }
 
 ul#zoom li#imagemReiLeao{
     background: url('../_img/poster_ReiLeao.jpg') no-repeat;
+    background-position: 50% 50%;
 }
 
 ul#zoom li#imagemSearching{
     background: url('../_img/poster_Searching.jpg') no-repeat;
+    background-position: 50% 50%;
 }
 
 ul#zoom li#imagemToyStory{
     background: url('../_img/poster_ToyStory.jpg') no-repeat;
+    background-position: 50% 50%;
 }
 
 ul#zoom li#imagemXMen{
     background: url('../_img/poster_XMen.jpg') no-repeat;
+    background-position: 50% 50%;
+}
+
+#imagemAvengers, #imagemBirdBox, #imagemVelozes, #imagemHellBoy, #imagemJhonWick, #imagemQuietPlace, #imagemReiLeao, #imagemSearching, #imagemToyStory, #imagemXMen{
+    width: 322px;
+    height: 435px;
+    border: 5px solid #000000;
+    border-radius: 5px;
+    background-color: #000000;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    transition: all .5s ease-in;
+}
+
+#foto{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #000000;
+    border-radius: 5px;
+    background-color: #000000;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    transition: all .5s ease-in;
 }
 
 .navGenero {
